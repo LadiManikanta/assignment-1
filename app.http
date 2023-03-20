@@ -1,0 +1,13 @@
+GET http://localhost:1432/todos/?status=TO%20DO
+###
+GET http://localhost:1432/todos/?priority=HIGH
+###
+GET http://localhost:1432/todos/?priority=HIGH&status=IN%20PROGRESS
+###
+GET http://localhost:1432/todos/?search_q=Buy
+###
+GET http://localhost:1432/todos/?category=WORK&status=DONE
+###
+GET http://localhost:1432/todos/?category=HOME
+###
+GET http://localhost:1432/todos/?category=LEARNING&priority=HIGH
